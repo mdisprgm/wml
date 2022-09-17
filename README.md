@@ -1,0 +1,54 @@
+# Very Logical Function
+
+## C++
+```cpp
+#include <iostream>
+#include <cmath>
+
+double worldMostLogical(double x) {
+    return (18111 / 2.0) * pow(x, 4) - 90555 * pow(x, 3) + (633885 / 2.0) * pow(x, 2) - 452773 * x + 217331;
+}
+
+int main() {
+    std::cout << worldMostLogical(1) << std::endl; // 1
+    std::cout << worldMostLogical(2) << std::endl; // 3
+    std::cout << worldMostLogical(3) << std::endl; // 5
+    std::cout << worldMostLogical(4) << std::endl; // 7
+    std::cout << worldMostLogical(5) << std::endl; // 217341
+}
+```
+
+## Go
+```go
+package main
+
+import (
+	"fmt"
+	"math"
+)
+
+func worldMostLogical(x float64) float64 {
+	return (18111/2)*math.Pow(x, 4) - 90555*math.Pow(x, 3) + (633885/2)*math.Pow(x, 2) - 452773*x + 217331
+
+}
+
+func main() {
+	fmt.Println(worldMostLogical(1)) // 1
+	fmt.Println(worldMostLogical(2)) // 3
+	fmt.Println(worldMostLogical(3)) // 5
+	fmt.Println(worldMostLogical(4)) // 7
+	fmt.Println(worldMostLogical(5)) // 217341
+}
+```
+
+## Typescript
+```ts
+function worldMostLogical(x: number) {
+    return (18111 / 2) * Math.pow(x, 4) - 90555 * Math.pow(x, 3) + (633885 / 2) * Math.pow(x, 2) - 452773 * x + 217331;
+}
+console.log(worldMostLogical(1)); // 1
+console.log(worldMostLogical(2)); // 3
+console.log(worldMostLogical(3)); // 5
+console.log(worldMostLogical(4)); // 7
+console.log(worldMostLogical(5)); // 217341
+```
