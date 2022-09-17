@@ -1,5 +1,23 @@
-# Very Logical Function
+# A Very Logical Function
+There is a function f(x) that satisfies the conditions below.
+```
+(1) f(1) = 1
 
+(2) f(2) = 3
+
+(3) f(3) = 5
+
+(4) f(4) = 7
+```
+then what's f(5)?
+
+① 9<br>
+② 11<br>
+③ 13<br>
+④ 15<br>
+⑤ 217341<br>
+
+Answer: ⑤
 ## C++
 ```cpp
 #include <iostream>
